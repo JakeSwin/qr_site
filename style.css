@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 2.5em 0;
+}
+
+main {
+  display: flex;
+  flex-grow: 2;
+}
+
+.section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+#section-one .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+#section-one .title h2 {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#section-one ol {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#section-two .qrcode img{
+  width: 10em;
+}
+
+.title img {
+  width: 7em;
+}
