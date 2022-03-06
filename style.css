@@ -1,12 +1,12 @@
 @media screen and (max-width: 600px) {
   body {
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   body {
-    font-size: 10px;
+    font-size: 0.5rem;
   }
 }
 
