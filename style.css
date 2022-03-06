@@ -34,9 +34,9 @@ header {
   background-color: #002147;
   color: white;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 0.5rem;
   font-weight: bold;
-  padding: 2.5em 0;
+  padding: 1.5rem 0;
 }
 
 main {
@@ -50,29 +50,29 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em;
+  padding: 2rem;
 }
 
 #section-one .title {
   display: flex;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 #section-one .title h2 {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 #section-one ol {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 #section-two .qrcode img{
-  width: 10em;
+  width: 10rem;
 }
 
 .title img {
-  width: 7em;
+  width: 7rem;
 }
