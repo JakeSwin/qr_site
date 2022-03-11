@@ -1,18 +1,18 @@
-@media only screen and (max-width: 350px) {
-  html {
-    font-size: 8px;
-  }
-}
-
-@media only screen and (min-width: 350px){
+@media only screen and (min-width: 500px){
   html {
     font-size: 11px;
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   html {
-    font-size: 15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 8px;
   }
 }
 
@@ -34,9 +34,9 @@ header {
   background-color: #002147;
   color: white;
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 0.5em;
   font-weight: bold;
-  padding: 1.5rem 0;
+  padding: 1.5em 0;
 }
 
 main {
@@ -50,29 +50,29 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 2em;
 }
 
 #section-one .title {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 #section-one .title h2 {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.5em;
 }
 
 #section-one ol {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.2em;
 }
 
 #section-two .qrcode img{
-  width: 10rem;
+  width: 15em;
 }
 
 .title img {
-  width: 7rem;
+  width: 9rem;
 }
